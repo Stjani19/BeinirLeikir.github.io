@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+}
+
+body{
+    height: 100vh;
+    background-image: url(photo-1508098682722-e99c43a406b2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: gray;
+    
+    
+}
+
+.container{
+    position: absolute;
+    padding: 16px;
+    margin: 50px 0;
+    width: 50%;
+    background-color: white ;
+    text-align: center;
+    border-radius: 15px;
+    text-transform: uppercase ;
+    overflow: hidden;    
+
+
+}
+
+.title-box{
+    margin: 1px 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5rem ;
+}
+.title-box #goals{
+    font-size: 1.4rem;
+}
+
+.team{
+    width: 100px;
+}
+
+.team img{
+    height: 52px;
+    width: 52px;
+}
+.matches-table{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.match-tile{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+.match-tile img{
+    width: 52px;
+    height: 52px;
+}
+.match-tile p{
+    font-size: 1.4rem;
+        
+}
+.match-tile #goals{
+    font-size: 1.8rem;
+}
+
+.match-tile .team{
+    width: 100px;
+}
+
